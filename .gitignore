@@ -1,0 +1,52 @@
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Empacotamento / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variáveis de ambiente
+.env
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arquivos .wav temporários apenas na raiz do projeto
+# (a barra inicial restringe à raiz; outputs/audio/ continua versionado)
+/*.wav
+
+# Cache do corpus processado (src/corpus.py)
+.cache/
+
+# Ferramentas baixadas localmente (FluidSynth, soundfont de 148 MB)
+tools/
+
+# Arquivos auxiliares do LaTeX (o PDF do resumo continua versionado)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

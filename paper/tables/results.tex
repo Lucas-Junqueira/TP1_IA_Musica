@@ -1,0 +1,17 @@
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{ccccc}
+    \toprule
+    Order & Contexts & $H$ (bits) & Copied 6-grams & Longest run \\
+    \midrule
+    1 & $152$ & $3.04$ & $0.02 \pm 0.03$ & $5.8 \pm 0.9$ \\
+    2 & $1044$ & $2.11$ & $0.16 \pm 0.08$ & $7.6 \pm 1.6$ \\
+    3 & $2696$ & $1.31$ & $0.48 \pm 0.12$ & $10.7 \pm 2.6$ \\
+    4 & $4432$ & $0.70$ & $0.85 \pm 0.07$ & $17.2 \pm 5.5$ \\
+    \bottomrule
+  \end{tabular}
+  \caption{Model sparsity and memorization by Markov order. Contexts: distinct contexts seen in training; $H$: mean conditional entropy of the next event. The last two columns are mean $\pm$ s.d.\ over 50 melodies ($T = 1$); longest run is the longest span, in events, copied verbatim from one chorale.}
+  \label{tab:results}
+\end{table}
